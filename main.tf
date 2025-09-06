@@ -7,9 +7,9 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "izzy-terraform-state"
-    key    = "terraform.tfstate"
-    region = "ap-southeast-6"
+    bucket                 = "izzy-terraform-state"
+    key                    = "terraform.tfstate"
+    region                 = "ap-southeast-6"
     skip_region_validation = true
   }
 }
